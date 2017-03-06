@@ -5,7 +5,7 @@ require './lib/key_value.rb'
 class ReturnMyValue < Sinatra::Base
 
   before do
-    @key_value_instance = KeyValue.new
+    @key_value_instance = KeyValue.instance
   end
 
   get '/set' do
