@@ -87,6 +87,7 @@ PLATFORMS
 DEPENDENCIES
   capybara
   coveralls
+  rack
   rake
   rspec
   rspec-sinatra
