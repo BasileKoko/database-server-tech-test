@@ -15,5 +15,4 @@ class ReturnMyValue < Sinatra::Base
     @value = KeyValue.retrieve(@key)
     erb :get
   end
-
 end

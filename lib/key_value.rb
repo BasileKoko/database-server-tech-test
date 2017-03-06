@@ -1,14 +1,11 @@
 class KeyValue
-  attr_reader :data_array
 
-
-
-    def store(pair)
+    def self.store(pair)
        @data_array = []
-      @data_array << Hash[[pair.split("=")]]
+       @data_array << Hash[[pair.split("=")]]
     end
 
-    def retrieve(key)
-      data_array.map {|el| el["#{key}"]}.join
+    def self.retrieve(key)
+      @data_array.map {|el| el["#{key}"]}.join
     end
 end
