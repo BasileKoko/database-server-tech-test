@@ -4,7 +4,7 @@ Before your interview, write a program that runs a server that is accessible on 
 
 <a name="GEMS">Gems Used</a>
 
-```
+```ruby
 source "https://rubygems.org"
 ruby '2.3.3'
 gem 'sinatra'
